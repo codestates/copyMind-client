@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, Route, Redirect} from 'react-router-dom'
+import {Switch, Route} from 'react-router-dom'
 import './App.css';
 import {PostCopy,Signup, Login } from './components'
 import {_Main, _ListCopy, _ViewCopy, _Nav, _MyProfile} from './containers'
@@ -49,7 +49,6 @@ class App extends React.Component {
  
     return (
       <div className="app">
-        <div className='view-main'>
           <div className='header'>
             <_Nav menu={this.state.menu} modalOpen={this.modalOpen.bind(this)} modalClose={this.modalClose.bind(this)} />
           </div>
@@ -74,7 +73,6 @@ class App extends React.Component {
           <div className='footer'>
             
           </div>
-        </div>
       </div>
     );
   } 
