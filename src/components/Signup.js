@@ -55,9 +55,9 @@ const Signup = (props) => {
     return (
         <div className="signup-background">
             <div className="signup-inputs" ref={signupModalRef}>
-                <div className="signup-close">
-                    <button className="signup-button" onClick={()=>{props.modalClose('signup')}}>X</button>
-                </div>
+                
+                <button className="signup-close" onClick={()=>{props.modalClose('signup')}}>X</button>
+                
                 <input id="signup_email" type="email" placeholder="Email" name="email" onChange={(e) => handleChange(e.target)}/>
 
                 <input id="signup_username" type="text" placeholder="User Name" name="userName" onChange={(e) => handleChange(e.target)}/> 

@@ -43,14 +43,13 @@ aside {
 	z-index: 100;
 }
 
-.loginClose {
-	display: flex;
-	justify-content: flex-end;
-}
 .modalClose {
 	transform: translate(-105%, -168%);
 	border: 0;
 	background-color: #ffffff;
+	position: relative;
+	left: 477.5px;
+	top: -19px;
 }
 #input {
 	display: flex;
