@@ -1,15 +1,15 @@
 .alert-box {
-    font-size: 0.3rem;
-    color: red;
+	font-size: 0.3rem;
+	color: red;
 }
 
 .pwAlert {
-    font-size: 0.3rem;
-    color: rgb(148, 148, 148);
+	font-size: 0.3rem;
+	color: rgb(148, 148, 148);
 }
 
 .signup-background {
-	background-color: azure;
+	background-color: #fcfbf2;
 	height: 80vh;
 	display: flex;
 	flex-direction: column;
@@ -28,8 +28,8 @@
 	background-color: #ffffff;
 	box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 9999px;
 	z-index: 100;
-    border: 1px solid black;
-    width: 27.6vw;
+	border: 1px solid black;
+	width: 27.6vw;
 }
 .signup-inputs input {
 	width: 15vw;
@@ -42,14 +42,10 @@
 }
 
 .signup-close {
-	display: flex;
-	justify-content: flex-end;
-}
-
-.signup-button {
 	background: #ffffff;
 	border: 0;
-	padding-left: 22.6vw;
+	position: relative;
+	left: 200px;
 }
 
 #signup-click {
